@@ -1,3 +1,4 @@
+# Even and odd counts
 numbers = [10, 15, 20, 25, 30, 35]
 even_count=0
 odd_count=0

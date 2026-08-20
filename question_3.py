@@ -1,3 +1,4 @@
+# Freqency of every number
 numbers = [4, 7, 4, 2, 7, 9, 4, 2]
 freq = {}
 for i in numbers:
