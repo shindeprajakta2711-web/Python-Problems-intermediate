@@ -1,4 +1,4 @@
-# Frequency of the numbers occured in the list
+# Frequency of the numbers occured in the list .
 numbers = [4, 7, 4, 2, 7, 9, 4, 2]
 freq= {}
 for i in numbers:
