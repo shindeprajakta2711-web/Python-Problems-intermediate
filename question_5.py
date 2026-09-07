@@ -14,3 +14,4 @@ for number, count in freq.items():
         most_freq_num=number
 print("most occured number:", most_freq_num)
 print("Freq of occurence:", highest_num)
+# Occurence number
