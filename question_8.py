@@ -1,4 +1,5 @@
-# Frequency of the letter in the word
+# Frequency of the letter in the word, going through the each letter in the word.
+
 word = "Lenovo"
 freq = {}
 for char in word:
