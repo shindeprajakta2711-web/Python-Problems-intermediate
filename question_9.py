@@ -4,7 +4,7 @@ target = 9
 seen = {}
 for i , sum in enumerate(numbers):  # Enumerate function enables to take index and key value 
 # these gives the dict type format that is key : values pair answer
-    required=target-sum
+    required=target-sum # For reaching the target we need to substract the sum or number 
     if required in seen:
         print([seen[required], i])
         break
