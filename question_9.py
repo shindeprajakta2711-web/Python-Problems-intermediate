@@ -1,4 +1,5 @@
 # Fetching the number to reach the target by using enumerate function 
+# Intermediate level
 numbers = [3, 2, 4, 8, 7, 5]
 target = 9
 seen = {}
