@@ -25,24 +25,16 @@
 # print(count)
 
 
-attendance = [
-    "Amit",
-    "Rahul",
-    "Amit",
-    "Sneha",
-    "Rahul",
-    "Amit",
-    "Sneha"
-]
-count ={}
+attendance = ["Amit","Rahul","Amit","Sneha","Rahul","Amit","Sneha"]
+count = {}
 for name in attendance:
     if name in count:
         count[name]+=1
     else:
         count[name]=1
 highest=0
-name = ""
-for name ,occurence in count.items():
+employee = ""
+for name,occurence in count.items():
     if occurence>highest:
         highest=occurence
         employee=name
