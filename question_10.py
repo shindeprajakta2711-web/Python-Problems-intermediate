@@ -25,6 +25,7 @@
 # print(count)
 
 
+# highest employee occurence 
 attendance = ["Amit","Rahul","Amit","Sneha","Rahul","Amit","Sneha"]
 count = {}
 for name in attendance:
