@@ -8,4 +8,5 @@ for name,occurence in count.items():
         employee=[name]
     elif occurence==highest:
         employee.append(name)
-print(employee)
+print("Highest Occurrence:", occurence)
+print("Employees:", employee)
