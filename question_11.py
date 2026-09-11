@@ -1,9 +1,5 @@
 # Max count of employee 
-count = {
-    "Amit": 3,
-    "Rahul": 3,
-    "Sneha": 2
-}
+count = { "Amit": 3,"Rahul": 3,"Sneha": 2}
 highest=0
 employee=[]
 for name,occurence in count.items():
