@@ -1,4 +1,4 @@
-# Max count of employee 
+# Max count of employee and their names
 count = { "Amit": 3,"Rahul": 3,"Sneha": 2}
 highest=0
 employee=[]
