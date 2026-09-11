@@ -3,5 +3,6 @@ seen=set()
 for num in numbers:
     if num in seen:
         print("First repeated number is :", num)
+        break
     else:
-        print
+        seen.add(num)
