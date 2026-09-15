@@ -10,5 +10,12 @@
 
 
 # First repeated words:
-
+words = ["apple", "banana", "orange", "apple", "mango", "banana"]
+new = set()
+for word in words:
+    if word in new:
+        print("First repeated word is :", word)
+        break
+    else:
+        new.add(word)
 
