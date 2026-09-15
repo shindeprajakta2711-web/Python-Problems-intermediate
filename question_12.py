@@ -9,3 +9,6 @@
 #         seen.add(num)
 
 
+# First repeated words:
+
+
