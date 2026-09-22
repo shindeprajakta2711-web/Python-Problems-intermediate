@@ -16,4 +16,4 @@ for log in logs:
     else:
         count[log]=1
 for name , errors in count.items():
-    print(name,"occured ",errors)
+    print(name,"occured ",errors,"times")
