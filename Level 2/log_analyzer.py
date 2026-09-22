@@ -1,3 +1,4 @@
+# Log analyzer code 
 logs = [
     "ERROR",
     "INFO",
