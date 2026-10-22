@@ -18,5 +18,4 @@ else:
 # 1     0	    6	    3	 24
 # Target found!
 # Here we found the target immediately. If the target were 36, we'd first check 24, then move to the right half and find 36.
-
 # Time complexity: \(O(\log n)\). Each step roughly halves the search area.
