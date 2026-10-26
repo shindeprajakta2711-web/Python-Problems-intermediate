@@ -6,3 +6,6 @@ for i in range(n):
         if numbers[j]>numbers[j+1]:
             numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
 print(numbers)
+
+# Complexity: Average and worst case \(O(n^2)\). Bubble Sort is useful 
+# for learning sorting logic, though it is inefficient for large datasets.
