@@ -13,11 +13,23 @@
 # Complexity: Average and worst case \(O(n^2)\). Bubble Sort is useful 
 # for learning sorting logic, though it is inefficient for large datasets.
 
-# Bubble Sort in Desending order
-number=[5,2,8,1,3]
-n=len(number)
+# # Bubble Sort in Desending order
+# number=[5,2,8,1,3]
+# n=len(number)
+# for i in range(n):
+#     for j in range(n-1-i):
+#         if number[j]<number[j+1]:
+#             number[j], number[j+1]=number[j+1], number[j]
+# print("Descending order:",number)
+
+# Sort Employee's Salaries 
+salaries = [25000, 45000, 18000, 60000, 35000]
+n=len(salaries)
+swap_count=0
 for i in range(n):
     for j in range(n-1-i):
-        if number[j]<number[j+1]:
-            number[j], number[j+1]=number[j+1], number[j]
-print("Descending order:",number)
+        if salaries[j]>salaries[j+1]:
+            salaries[j], salaries[j+1]=salaries[j+1], salaries[j]
+            swap_count=swap_count+1
+print("Sorted salary:", salaries)
+print("Swap Count: ",swap_count)
