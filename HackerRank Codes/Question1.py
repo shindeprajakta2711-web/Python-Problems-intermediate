@@ -10,6 +10,7 @@
 # Sample Output 0
 # 5
 
+
 n= int(input())
 scores=list(map(int, input().split()))
 
