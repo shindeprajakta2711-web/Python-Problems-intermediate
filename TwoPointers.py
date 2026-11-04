@@ -1,3 +1,4 @@
+
 numbers = [12, 24, 36, 48, 60, 72]
 left=0
 right=len(numbers)-1
