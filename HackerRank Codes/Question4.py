@@ -29,3 +29,9 @@ for i in range(n):
         
     elif command[0]=="reverse":
         my_list.reverse()
+        
+# Hash value 
+n=int(input())
+numbers=map(int(input().split()))
+t=tuple(numbers)
+print(hash(t))
