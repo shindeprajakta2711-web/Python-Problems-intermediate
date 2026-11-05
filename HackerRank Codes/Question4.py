@@ -41,3 +41,12 @@ import numpy
 p=numpy.array(int(input().split(), float))
 x=float(input())
 print(numpy.polyval(p,x))
+
+#Determinant Question
+Num=int(input())
+matrix=[]
+for i in range(Num):
+    row=list(map(input().split()))
+    matrix.append(row)
+result=numpy.linalg.det(matrix)
+print(result)
