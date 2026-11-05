@@ -35,3 +35,9 @@ n=int(input())
 numbers=map(int(input().split()))
 t=tuple(numbers)
 print(hash(t))
+
+#Polynomial Question
+import numpy
+p=numpy.array(int(input().split(), float))
+x=float(input())
+print(numpy.polyval(p,x))
