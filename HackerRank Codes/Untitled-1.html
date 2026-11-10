@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Responsive Webpage</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Bootstrap CSS CDN -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstr
+ap.min.css"
+rel="stylesheet">
+<!-- Custom CSS Media Query -->
+<style>
+body {
+background-color: #f2f5f9;
+}
+.heading-box {
+background-color: lightblue;
+padding: 25px;
+text-align: center;
+}
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+.heading-box {
+background-color: lightgreen;
+padding: 15px;
+}
+.heading-box h1 {
+font-size: 24px;
+}
+}
+</style>
+</head>
+<body>
+<div class="container mt-4">
+<!-- Tailwind CSS -->
+<div class="bg-blue-600 text-white p-4 rounded-lg
+text-center mb-4">
+<h2 class="text-2xl font-bold">
+My Online Courses
+</h2>
+<p>Learn New Technologies</p>
+</div>
+<!-- CSS Media Query -->
+<div class="heading-box mb-4">
+<h1>Welcome Students!</h1>
+<p>Resize the browser to see responsive changes.</p>
+</div>
+<!-- Bootstrap Cards -->
+<div class="row g-3">
+<!-- Card 1 -->
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card">
+<div class="card-body text-center">
+<h5 class="card-title">HTML</h5>
+<p class="card-text">
+Learn how to create web pages.
+</p>
+<button class="btn btn-primary">
+Learn More
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card">
+<div class="card-body text-center">
+<h5 class="card-title">CSS</h5>
+<p class="card-text">
+Learn how to design web pages.
+</p>
+<button class="btn btn-success">
+Learn More
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="col-12 col-md-6 col-lg-4">
+<div class="card">
+<div class="card-body text-center">
+<h5 class="card-title">JavaScript</h5>
+<p class="card-text">
+Learn how to add interactivity.
+</p>
+<button class="btn btn-danger">
+Learn More
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
