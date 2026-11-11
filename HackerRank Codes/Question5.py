@@ -1,7 +1,7 @@
 # We have seen the applications of union, intersection, difference and 
 # symmetric difference operations, but these operations do not make any changes or 
 # mutations to the set.
-
+# Multiple operations of the list
 # We can use the following operations to create mutations to a set:
 # intersection_update	Keep {1,2,3,4,5,6,7,8,9,11}
 # update	Add 55, 66
