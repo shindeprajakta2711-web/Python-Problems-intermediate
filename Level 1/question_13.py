@@ -7,8 +7,6 @@
 #     else:
 #         count[word]=1
 # print(count)
-
-
 # Printing the most occurrent name and the count 
 words = ["python","java","python","sql","java","python","sql"]
 count={}
