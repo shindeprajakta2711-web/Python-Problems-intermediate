@@ -1,4 +1,4 @@
-# Even and odd counts 
+# Even and odd counts question
 
 numbers = [10, 15, 20, 25, 30, 35]
 even_count=0
