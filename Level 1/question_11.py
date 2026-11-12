@@ -1,6 +1,7 @@
 # Max count of employee and their names question
 count = { "Amit": 3,"Rahul": 3,"Sneha": 2}
 highest=0
+
 employee=[]
 for name,occurence in count.items():
     if occurence>highest:
