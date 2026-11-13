@@ -24,4 +24,7 @@ def swap_case(s):
             result+=ch.lower()
         elif ch.islower():
             result+=ch.upper()
-            
+        else:
+            result+=ch
+if __name__=='__main__':
+    s=input()
