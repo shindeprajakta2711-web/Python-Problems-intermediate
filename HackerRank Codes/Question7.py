@@ -5,3 +5,4 @@ def split_hypen_case(line):
     return result
 if __name__=='__main__':
     line=input()
+    result=split_hypen_case(line)
