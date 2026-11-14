@@ -3,3 +3,5 @@ def split_hypen_case(line):
     words=line.split(" ")
     result="-".join(words)
     return result
+if __name__=='__main__':
+    line=input()
