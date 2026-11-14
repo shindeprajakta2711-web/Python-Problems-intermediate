@@ -4,6 +4,6 @@ def split_hypen_case(line):
     result="-".join(words)
     return result
 if __name__=='__main__':
-    line=input()
+    line=input("Enter the sentence: ")
     result=split_hypen_case(line)
-    print(result)
+    print(result) 
