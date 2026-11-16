@@ -7,6 +7,7 @@
 def mutate_String(string, character, position):
     result= string[:position]+character+string[position+1:]
     return result
+
 if __name__=='__main__':
     s=input()
     i,c=input().split()
