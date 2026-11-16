@@ -16,6 +16,7 @@ if __name__=='__main__':
     print(count)
 
 # String operations with boolean 
+
 if __name__ == '__main__':
     s = input()
     
