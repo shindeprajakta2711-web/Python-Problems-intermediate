@@ -3,3 +3,12 @@
 # Let's try to understand this with an example.
 
 # You are given an immutable string, and you want to make changes to it.
+
+def mutate_String(string, character, position):
+    result= string[:position]+character+string[position+1:]
+    return result
+if __name__=='__main__':
+    s=input()
+    i,c=input().split()
+    s_new=mutate_String(s,int(i),c)
+    print(s_new)
