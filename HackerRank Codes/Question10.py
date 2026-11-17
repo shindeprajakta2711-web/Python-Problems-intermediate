@@ -1,5 +1,4 @@
-#HackerRank logo
-
+#HackerRank logo print
 
 thickness = int(input())
 c = 'H'
