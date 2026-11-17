@@ -1,5 +1,4 @@
-#Hacker
-
+#HackerRank
 thickness = int(input())
 c = 'H'
 
