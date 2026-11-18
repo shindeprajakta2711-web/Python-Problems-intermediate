@@ -1,6 +1,6 @@
 #HackerRank logo print
 
-thickness = int(input())
+thickness = int(input("number"))
 c = 'H'
 
 # Top Cone
